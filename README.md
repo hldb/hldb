@@ -3,8 +3,8 @@ A peer-to-peer database protocol
 
 ## Summary
 
-Opalescent is for building [local-first](https://www.inkandswitch.com/local-first/), decentralized applications.
-It is best suited for building social/collaborative applications that do not require consensus.
+Opalescent can be used to build [local-first](https://www.inkandswitch.com/local-first/), decentralized applications.
+It is best suited for social/collaborative applications that do not require consensus.
 
 Each peer has their own copy of the database called a replica.
 The peer's local replica is used as the source of truth.
