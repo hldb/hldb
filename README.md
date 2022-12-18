@@ -1,2 +1,2 @@
 # Opalescent
-Directory for learning more about Opalescent
+Directory for Opalescent resources
