@@ -24,9 +24,9 @@ Access is controlled and enforced by correct peers on their own replicas.
 
 ## Papers
 
-The core of the database is the replica which is a *Merkle-CRDT*. This type of [CRDT](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) allows for BEC, byzantine eventual consistency, which is a strong property on top of [SEC](https://en.wikipedia.org/wiki/Eventual_consistency#Strong_eventual_consistency) that ensures faulty replicas cannot permanently corrupt the state of correct replicas.
+The core of the database is the replica which is a *Merkle-CRDT*. This type of [CRDT](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) satisfies BEC, byzantine eventual consistency, which is a strong property on top of [SEC](https://en.wikipedia.org/wiki/Eventual_consistency#Strong_eventual_consistency) that ensures faulty replicas cannot permanently corrupt the state of correct replicas.
 
-These are two papers the fundamentals of `opalsnt` are built on:
+These are two papers the foundation of the protocol are built on:
 
 1. [Merkle-CRDTs: Merkle-DAGs meet CRDTs](https://research.protocol.ai/publications/merkle-crdts-merkle-dags-meet-crdts/)
 2. [Byzantine Eventual Consistency and the Fundamental Limits of Peer-to-Peer Databases](https://github.com/ept/byzantine-eventual)
