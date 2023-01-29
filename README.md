@@ -24,7 +24,7 @@ Access is controlled and enforced by correct peers on their own replicas.
 
 ## Papers
 
-The core of the database is the replica is a *Merkle-CRDT*. This type of [CRDT](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) satisfies BEC, byzantine eventual consistency. This property ensures [SEC](https://en.wikipedia.org/wiki/Eventual_consistency#Strong_eventual_consistency) and that any number of faulty replicas cannot affect correct ones.
+At the core of the database replica is a *Merkle-CRDT*. This type of [CRDT](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) satisfies BEC, byzantine eventual consistency. This property ensures [SEC](https://en.wikipedia.org/wiki/Eventual_consistency#Strong_eventual_consistency) and that any number of faulty replicas cannot affect correct ones.
 
 These are two papers the foundation of the protocol are built on:
 
