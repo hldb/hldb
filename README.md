@@ -3,7 +3,7 @@ A peer-to-peer database protocol
 
 ## Summary
 
-HLDB can be used to build [local-first](https://www.inkandswitch.com/local-first/), decentralized applications.
+HLDB can be used to build [local-first](https://www.inkandswitch.com/local-first/) applications.
 It is best suited for social/collaborative applications that do not require consensus.
 
 Each peer has their own copy of the database called a replica.
