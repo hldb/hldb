@@ -1,9 +1,9 @@
-# Opalescent
+# HLDB
 A peer-to-peer database protocol
 
 ## Summary
 
-Opalescent can be used to build [local-first](https://www.inkandswitch.com/local-first/), decentralized applications.
+HLDB can be used to build [local-first](https://www.inkandswitch.com/local-first/), decentralized applications.
 It is best suited for social/collaborative applications that do not require consensus.
 
 Each peer has their own copy of the database called a replica.
@@ -33,10 +33,10 @@ These are two papers the foundation of the protocol are built on:
 
 ## Specification
 
-The protocol specification can be found in [`opalsnt/specs`](https://github.com/opalsnt/specs).
+The protocol specification can be found in [`hldb/specs`](https://github.com/hldb/specs).
 
 ## Implementations
 
 | Name | Language |
 | --- | --- |
-| [welo](https://github.com/opalsnt/welo) | typescript |
+| [welo](https://github.com/hldb/welo) | typescript |
